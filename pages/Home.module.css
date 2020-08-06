@@ -16,6 +16,10 @@
   display: flex;
   margin-right: var(--m);
   border-radius: 100%;
+  animation: imageFadeIn 2s forwards;
+  animation-delay: 4.5s;
+  border: none;
+  opacity: 0;
 }
 
 .grid {
@@ -27,7 +31,7 @@
 .firstname {
   color: black;
   animation: mainFadeIn 2s forwards;
-  animation-delay: 1.6s;
+  animation-delay: 1.5s;
   opacity: 0;
 }
 
@@ -43,14 +47,14 @@
 
 .title-block {
   width: 0%;
-  background: #ffb510;
+  background: #d62404;
   animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
   display: flex;
 }
 
 .subtitle-block {
   width: 0%;
-  background: purple;
+  background: rgb(226, 210, 61);
   animation: secBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
   animation-delay: 2s;
 }
@@ -87,6 +91,16 @@
   0% {
     opacity: 0;
   }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes imageFadeIn {
+  0% {
+    opacity: 0;
+  }
+
   100% {
     opacity: 1;
   }
