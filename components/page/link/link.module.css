@@ -1,0 +1,9 @@
+.link {
+  text-decoration: none;
+  display: inline-block;
+  color: var(--primary-color);
+}
+.link:hover {
+  border-radius: 10px;
+  filter: brightness(110%);
+}

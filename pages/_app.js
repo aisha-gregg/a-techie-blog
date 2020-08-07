@@ -1,7 +1,8 @@
-import "../styles/globals.css";
+import React from "react";
 
-function MyApp({ Component, pageProps }) {
+import "../styles/globals.css";
+import { pageview } from "../features/google-analytics";
+
+export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
-
-export default MyApp;
