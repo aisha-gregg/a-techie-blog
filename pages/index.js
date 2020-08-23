@@ -46,7 +46,8 @@ export default function Home() {
                 <strong>Aisha Kamilah Gregg</strong> is a{" "}
                 <strong>frontend web developer</strong>, blogger,{" "}
                 <strong>UI and visual design lover</strong> and
-                <strong> project management graduate</strong>.
+                <strong> project management graduate </strong>sharing her
+                experience of programming through mini blog tutorials.
               </p>
             </div>
           </section>
