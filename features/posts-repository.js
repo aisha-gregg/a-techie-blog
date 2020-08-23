@@ -13,7 +13,7 @@ export function getPosts() {
     const fullPath = path.join(postsDirectory, fileName);
 
     const fileContents = fs.readFileSync(fullPath, "utf8");
-    const result = matter(fileContents).data;
+    const result = matter(fileContents).dat;
     return {
       id,
       ...result,

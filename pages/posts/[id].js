@@ -1,10 +1,10 @@
+import { getPost, getPostIds } from "../../features/posts-repository";
+import { Page } from "../../components/page/Page";
+
 export default function Post({ post, id }) {
   return (
     <Page>
-      <div
-        className={styles.post}
-        dangerouslySetInnerHTML={{ __html: post }}
-      ></div>
+      <div dangerouslySetInnerHTML={{ __html: post }}></div>
     </Page>
   );
 }

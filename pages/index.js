@@ -54,7 +54,7 @@ export default function Home() {
           <section className={styles["blog-list"]}>
             <h2>Blogs</h2>
             <div className={styles.grid}>
-              <Link href="/posts/the intersection observer.md">
+              <Link href="/posts/the-intersection-observer">
                 The Intersection Observer
               </Link>
             </div>
