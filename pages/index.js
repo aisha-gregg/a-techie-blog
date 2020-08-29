@@ -23,7 +23,11 @@ export default function Home() {
 
         <Page className={styles.main}>
           <section className={styles.introduction}>
-            <img src="/techielifephoto.png" alt="" className={styles.image} />
+            <img
+              src="img/techielifephoto.png"
+              alt=""
+              className={styles.image}
+            />
             <div className={styles.info}>
               <header>
                 <div className={styles.block}>
